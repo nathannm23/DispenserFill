@@ -1,0 +1,13 @@
+name: DispenserFill
+version: '1.0-SNAPSHOT'
+main: me.natnm.dispenserfill.DispenserFill
+api-version: '1.20'
+commands:
+  filldispensers:
+    description: Completely fills nearby dispensers with the item in your hand.
+    usage: /<command> [radius]
+    aliases: [filldisp, fd, dispenserfill]
+permissions:
+  dispenserfill.fill:
+    description: Allows filling of dispensers within a certain radius.
+    default: op
